@@ -46,7 +46,7 @@ const Navigation: React.FC = () => {
       
       {/* Mobile Menu */}
       <div className={`mobile-menu md:hidden fixed top-0 right-0 h-full w-64 glass z-50 ${isMobileMenuOpen ? 'open' : ''}`}>
-        <div className="p-6">
+        <div className="p-6 bg-slate-900 bg-opacity-90 height-70vh">
           <button onClick={closeMobileMenu} className="text-2xl mb-8 float-right">
             <i className="fas fa-times"></i>
           </button>
