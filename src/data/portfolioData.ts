@@ -59,7 +59,7 @@ export const portfolioData = {
       title: "Hyperdash",
       description: "A scalable SaaS platform built to streamline city operations through smart workflows for ticket tracking, resource scheduling, and task automation. The platform improves operational efficiency and reduces manual intervention through intelligent automation and interactive dashboards.",
       technologies: ["React", "Redux Toolkit", "Ant Design", "Leaflet.js", "Typescript"],
-      image: "public/assets/Smart-Cities.jpg",
+      image: "/assets/Smart-Cities.jpg",
       github: "https://github.com/deepti21aug/ecommerce-platform",
       live: "https://ecommerce-demo.netlify.app",
       featured: true,
@@ -67,9 +67,9 @@ export const portfolioData = {
     },
     {
       title: "AfterMarket",
-      description: "A collaborative SAAS E-commerce application with real-time updates,multitenancy funcionality drag-and-drop functionality, and team collaboration features.",
+      description: "A collaborative SAAS E-commerce application with real-time updates,multitenancy functionality drag-and-drop functionality, and team collaboration features.",
       technologies: ["NextJs", "TypeScript", "Redux Toolkit", "Material UI"],
-      image: "public/assets/E-commerce.jpg",
+      image: "/assets/E-commerce.jpg",
       github: "https://github.com/deepti21aug/task-manager",
       live: "https://task-manager-demo.netlify.app",
       featured: true,
@@ -79,37 +79,38 @@ export const portfolioData = {
       title: "Chatterbox",
       description: "Built a scalable real-time messaging app using Socket.io and Express, implementing encrypted JWT-based  authentication and efficient MongoDB  schemas,  added features like view-once images, and profile editing",
       technologies: ["React", "TypeScript", "Socket.io", "MongoDB","Express.js", "Nodejs"],
-      image: "public/assets/image.png",
+      image: "/assets/image.png",
       github: "https://github.com/sharma21deepti/chatterbox",
       live: "",
       featured: true
     },
+
+   
     {
+      title: "Sorting Visualizer",
+      description: "",
+      technologies: ["HTML", "CSS", "Javascript","Python"],
+      image: "/assets/Todo.png",
+      github: "https://github.com/sharma21deepti/Sorting-Visualizer",
+      live: "https://sharma21deepti.github.io/Sorting-Visualizer/",
+      featured: false
+    },
+        {
       title: "Snake Game",
       description: "A simple snake game.",
       technologies: ["HTML", "CSS", "Javascript"],
-      image: "public/assets/flappybird.png",
+      image: "/assets/flappybird.png",
       github: "https://github.com/sharma21deepti/Snake-Game",
       live: "https://sharma21deepti.github.io/Snake-Game/",
-      featured: false
-    },
-   
-    {
-      title: "ToDO App",
-      description: "",
-      technologies: ["HTML", "CSS", "Javascript","Python"],
-      image: "public/assets/Todo.png",
-      github: "https://github.com/sharma21deepti/TODO-App",
-      live: "https://sharma21deepti.github.io/TODO-App/",
       featured: false
     },
     {
       title: "QR Code Generator",
       description: "A QR generator that generates QR of any text/url",
       technologies: ["HTML", "CSS", "Javascript"],
-      image: "public/assets/QR.jpeg",
-      github: "https://github.com/sharma21deepti/TODO-App",
-      live: "https://sharma21deepti.github.io/TODO-App/",
+      image: "/assets/QR.jpeg",
+      github: "https://github.com/sharma21deepti/QR-code-generator",
+      live: "https://sharma21deepti.github.io/QR-code-generator/",
       featured: false
     }
   ],

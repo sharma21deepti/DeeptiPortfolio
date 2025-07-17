@@ -38,7 +38,7 @@ const HeroSection: React.FC = () => {
 
   const downloadResume = () => {
 
-   const resumeUrl = 'public/assets/Deepti_Sharma_SDE(1).pdf';
+   const resumeUrl = '/assets/Deepti Sharma_Resume_SDE.pdf';
     const a = document.createElement('a')
     a.href = resumeUrl
     a.download = 'Deepti_Sharma_Resume.pdf'

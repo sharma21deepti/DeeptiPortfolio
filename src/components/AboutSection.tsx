@@ -16,7 +16,7 @@ With 2 years of experience working on real-world projects, I've built everything
         <div className="grid md:grid-cols-2 gap-24 items-center ">
           <div className="animate-fade-in">
             <img 
-              src="public/assets/deepti.jpg" 
+              src="/assets/deepti.jpg" 
               alt="Professional developer workspace" 
              className="rounded-xl shadow-2xl w-80 h-auto mx-auto md:ml-auto"
             />
