@@ -4,7 +4,7 @@ export const portfolioData = {
     title: "Software Development Engineer",
     email: "deepti21aug@gmail.com",
     phone: "+91 9455003671",
-    location: "Uttar Pradesh, India",
+    location: "Delhi, India",
     summary: "Just a dev who loves good design, better code, and building real stuff. 2 years in the frontend game — ReactJs, Nextjs, TypeScript, JavaScript, Ant Design,and MUI. Now adding AI to the mix."
   },
   
